@@ -27,12 +27,11 @@ header .titulo {
     align-items: center;
 }
 
-header .titulo img {
-
-    height: 32px;
-}
-
 header .carrinho {
 
+    width: 32px;
     height: 32px;
+
+    background-color: transparent;
+    border: none;
 }
