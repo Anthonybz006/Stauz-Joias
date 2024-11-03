@@ -1,0 +1,40 @@
+@media  screen and (max-width: 425px){
+    
+    header {
+
+        width: 100%;
+        height: 15vh;
+    
+        padding: 0 15px 0 15px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .menu {
+    
+        width: 32px;
+        height: 32px;
+    
+        background-color: transparent;
+        border: none;
+    }
+    
+    header .titulo {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .carrinho {
+    
+        width: 32px;
+        height: 32px;
+    
+        background-color: transparent;
+        border: none;
+    }
+}
