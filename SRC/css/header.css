@@ -1,0 +1,50 @@
+header {
+
+    width: 100%;
+    height: 15vh;
+
+    padding: 3%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu {
+    
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+    background-image: url("../img/menu-64x64.png");
+    background-size: cover;
+
+    border: none;
+}
+
+header .titulo {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .titulo::before {content: url("../img/cristal-32x32.png");}
+
+header .titulo .nome {
+
+    font-size: 2.5em;
+}
+
+header .carrinho {
+    
+    width: 40px;
+    height: 40px;
+
+    background-color: transparent;
+    background-image: url("../img/bolsa-de-compras-64x64.png");
+    background-size: cover;
+
+    border: none;
+}
