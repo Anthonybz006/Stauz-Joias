@@ -1,0 +1,19 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    color: #fff;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(135deg, #555, #333, #000);
+}
+
+button {cursor: pointer;}

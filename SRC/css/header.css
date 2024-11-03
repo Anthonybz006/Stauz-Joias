@@ -1,0 +1,38 @@
+header {
+
+    width: 100%;
+    height: 15vh;
+
+    padding: 0 10px 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu {
+
+    width: 32px;
+    height: 32px;
+
+    background-color: transparent;
+    border: none;
+}
+
+header .titulo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .titulo img {
+
+    height: 32px;
+}
+
+header .carrinho {
+
+    height: 32px;
+}
