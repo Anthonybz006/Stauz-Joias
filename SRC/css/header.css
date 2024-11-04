@@ -28,6 +28,8 @@ header .titulo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin-top: 10px;
 }
 
 header .titulo::before {content: url("../img/cristal-32x32.png");}
@@ -44,7 +46,32 @@ header .carrinho {
 
     background-color: transparent;
     background-image: url("../img/bolsa-de-compras-64x64.png");
+
     background-size: cover;
 
     border: none;
+}
+
+@media screen and (max-width: 425px) {
+    
+    header .menu {
+
+        width: 32px;
+        height: 32px;
+
+        background-image: url("../img/menu-32x32.png");
+    }
+
+    header .titulo .nome {
+
+        font-size: 1.7em;
+    }
+
+    header .carrinho {
+
+        width: 32px;
+        height: 32px;
+
+        background-image: url("../img/bolsa-de-compras-32x32.png");
+    }
 }

@@ -13,7 +13,8 @@ body {
     width: 100%;
     height: 100vh;
 
-    background-image: linear-gradient(135deg, #555, #333, #000);
+    background-image: linear-gradient(135deg, #525252, #2c2c2c, #000);
+    
 }
 
 button {cursor: pointer;}
