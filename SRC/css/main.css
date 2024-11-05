@@ -1,0 +1,192 @@
+main {
+
+    width: 100%;
+    height: 85vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .cards-list {
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+main .item-cards-list {
+
+    background-color: rgba(0, 0, 0, .08);
+
+    width: 95%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+    border-radius: 20px;
+}
+
+main .item-cards-list .img-produto {
+
+    width: 4em;
+    border-radius: 50%;
+}
+
+main .item-cards-list .item-information {
+
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 10%;
+
+    font-size: .8em;
+}
+
+main .item-cards-list .item-information .see-more {
+
+    width: 35%;
+    height: 20%;
+
+    background: none;
+    
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 545px) {
+    main {
+
+        width: 100%;
+        height: 85vh;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .cards-list {
+    
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .item-cards-list {
+    
+        background-color: rgba(0, 0, 0, .08);
+    
+        width: 70%;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        
+    
+        border-radius: 20px;
+    }
+    
+    main .item-cards-list .img-produto {
+    
+        width: 4.5em;
+        border-radius: 50%;
+    }
+    
+    main .item-cards-list .item-information {
+    
+        width: 70%;
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        gap: 10%;
+    
+        font-size: 1em;
+    }
+
+    main .item-cards-list .item-information .see-more {
+
+        width: 35%;
+        height: 20%;
+    
+        background: none;
+        
+        border: 1px solid #000;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+    main {
+
+        width: 100%;
+        height: 85vh;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .cards-list {
+    
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .item-cards-list {
+    
+        background-color: rgba(0, 0, 0, .08);
+        
+        width: 50%;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        border-radius: 20px;
+    }
+    
+    main .item-cards-list .img-produto {
+    
+        width: 13%;
+        border-radius: 50%;
+    }
+    
+    main .item-cards-list .item-information {
+    
+        height: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        gap: 10%;
+    }
+    
+    main .item-cards-list .item-information .see-more {
+    
+        width: 30%;
+        height: 20%;
+    
+        background: none;
+        
+        border: 1px solid #000;
+        border-radius: 20px;
+    }
+}
